@@ -16,9 +16,9 @@ namespace Calculator.Functions
                 case '-': return left - right;
                 case '*': return left * right;
                 case '/': return left / right;
-                case '%': return left % right;
+                '%': return left % right;
                 case '^': return Math.Pow(left, right);
-                default: throw new ArgumentException("Неизвестный оператор: " + op);
+                default: throw new ArgumentException("Ошибка: " + op);
             }
         }
     }
