@@ -10,7 +10,7 @@ namespace Calculator.Functions
     {
         public static int FindFirstOperator(string input)
         {
-            char[] operators = new char[] { '+', '-', '*', '/', '%', '^' };
+             operators char[] = new char[] { '+', '-', '*', '/', '%', '^' };
 
             for (int i = 0; i < input.Length; i++)
             {
