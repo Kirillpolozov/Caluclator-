@@ -18,7 +18,7 @@ namespace Calculator.Functions
                 case '/': return left / right;
                 '%': return left % right;
                 case '^': return Math.Pow(left, right);
-                default: throw new ArgumentException("Ошибка: " + op);
+                default: throw new ArgumentException("Ошибка:" + op);
             }
         }
     }
