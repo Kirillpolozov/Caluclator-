@@ -10,7 +10,7 @@ namespace Calculator.Functions
     {
         public static double PerformOperation(double left, double right, char op)
         {
-            switch (op)
+             (op)
             {
                 case '+': return left + right;
                 case '-': return left - right;
