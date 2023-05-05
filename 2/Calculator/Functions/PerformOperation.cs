@@ -10,15 +10,15 @@ namespace Calculator.Functions
     {
         public static double PerformOperation(double left, double right, char op)
         {
-            switch (op)
+             (op)
             {
                 case '+': return left + right;
                 case '-': return left - right;
                 case '*': return left * right;
                 case '/': return left / right;
-                case '%': return left % right;
+                '%': return left % right;
                 case '^': return Math.Pow(left, right);
-                default: throw new ArgumentException("Неизвестный оператор: " + op);
+                default: throw new ArgumentException("Ошибка: " + op);
             }
         }
     }
